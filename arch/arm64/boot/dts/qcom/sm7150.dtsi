@@ -147,6 +147,8 @@
 			reg-names = "core", "chnls", "obsrvr", "intr", "cnfg";
 			interrupt-names = "periph_irq";
 			interrupts = <GIC_SPI 481 IRQ_TYPE_LEVEL_HIGH>;
+			interrupt-controller;
+			#interrupt-cells = <4>;
 			qcom,ee = <0>;
 			qcom,channel = <0>;
 			#address-cells = <2>;
