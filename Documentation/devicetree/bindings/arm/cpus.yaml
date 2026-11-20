@@ -192,6 +192,8 @@ properties:
       - qcom,kryo385
       - qcom,kryo468
       - qcom,kryo485
+      - qcom,kryo4xx-gold
+      - qcom,kryo4xx-silver
       - qcom,kryo560
       - qcom,kryo570
       - qcom,kryo660
