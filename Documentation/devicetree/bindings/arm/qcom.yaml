@@ -945,6 +945,11 @@ properties:
 
       - items:
           - enum:
+              - xiaomi,sweet
+          - const: qcom,sm7150
+
+      - items:
+          - enum:
               - fairphone,fp4
           - const: qcom,sm7225
 
