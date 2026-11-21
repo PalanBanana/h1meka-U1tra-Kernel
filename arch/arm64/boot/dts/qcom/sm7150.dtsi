@@ -137,7 +137,7 @@
 		#size-cells = <2>;
 		ranges;
 
-		spmi@c440000 {
+		spmi_bus: spmi@c440000 {
 			compatible = "qcom,spmi-pmic-arb";
 			reg = <0x0 0x0c440000 0x0 0x1100>,	/* core */
 			      <0x0 0x0c600000 0x0 0x2000000>,	/* chnls */
@@ -164,3 +164,5 @@
 		};
 	};
 };
+
+#include "pm6150-sm7150.dtsi"
